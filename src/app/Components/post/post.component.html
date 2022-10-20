@@ -7,6 +7,13 @@
                 </label>
                 <input type="text" class="form-control" #title (keyup.enter)="createPost(title)" >
             </div>
+             <div *ngIf="errorMessage">
+                <div class="alert bg-danger text-white" >
+                    {{errorMessage}}
+                </div>
+             </div>
+            
+
             <ol class="list-group list-group-numbered">
                 <li class="list-group-item d-flex justify-content-between align-items-start"
                   *ngFor="let post of posts"
