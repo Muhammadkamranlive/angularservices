@@ -8,19 +8,22 @@ import { GithubFollowersComponent } from './Components/github-followers/github-f
 import { ReactiveFormsComponent } from './Components/reactive-forms/reactive-forms.component';
 import { UserProfileComponent } from './Components/user-profile/user-profile.component';
 import { PostServiceService } from './Services/post-service.service';
-
+import { NavbarComponent } from './Includes/navbar/navbar.component';
+import {ReactiveFormsModule} from "@angular/forms"
 @NgModule({
   declarations: [
     AppComponent,
     PostComponent,
     GithubFollowersComponent,
     ReactiveFormsComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
     
   ],
   providers: [

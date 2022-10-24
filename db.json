@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Muhammad",
+      "lastName": "Kamran",
+      "email": "MuhammadKamranntu@gmail.com",
+      "mobile": "03476548257"
+    },
+    {
+      "id": 2,
+      "firstName": "kamran",
+      "lastName": "kami",
+      "email": "bulkstore.pk@gmail.com",
+      "mobile": "03177682979"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
